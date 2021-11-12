@@ -1,0 +1,156 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.ftco-section,
+.body {
+  background: #dcdfff !important;
+  height: 100vh;
+  font-family: "poppins", Arial;
+}
+
+.signin-btn {
+  background-color: #5138ee !important;
+  color: white;
+  margin-top: 20px;
+  border-radius: 25px !important;
+}
+
+.signin-btn:hover {
+  background-color: #5942eb !important;
+  color: white;
+}
+
+.checkbox-primary {
+  color: #000;
+}
+
+.checkmark::after,
+.create-ac {
+  color: #5138ee !important;
+}
+
+.form-control:focus {
+  border-color: #5138ee;
+}
+
+.form-control {
+  border-radius: 25px;
+}
+
+.d-md-flex {
+  margin-top: 30px;
+}
+
+.not-reg {
+  margin-top: 20px;
+}
+.login-text {
+  font-weight: 700;
+}
+
+@media (min-width: 767.98px) {
+  .img {
+    background-size: 480px;
+    /* background-position-y: -20px !important; */
+  }
+  .img-line {
+    width: 50% !important;
+    height: 100px !important;
+    background: rgb(255, 255, 255) !important;
+    z-index: 100 !important;
+    position: absolute !important;
+    bottom: 30px;
+    font-size: calc(20px + 0.2vw);
+    text-align: center;
+    font-weight: 700;
+  }
+
+  /* .img-line span:nth-child(1){
+        color: #5138EE;
+        font-size: calc(20px + 0.6vw);
+    } */
+}
+
+@media (max-width: 767.97px) {
+  .img-line {
+    display: none;
+  }
+
+  .signup {
+    height: 175vh !important;
+    padding: 2em 0 !important;
+  }
+  .back-img {
+    position: relative;
+    background: rgb(247, 244, 255);
+    background-repeat: no-repeat;
+    z-index: 100;
+    background-position: center;
+    background-size: 50% !important;
+  }
+}
+
+.signup {
+  height: 130vh;
+  padding: 4em 0;
+}
+
+.signup-btn {
+  background-color: #5138ee !important;
+  color: white;
+  margin-top: 0px;
+  border-radius: 25px !important;
+  width: 100%;
+  padding: 13px 20px !important;
+}
+
+.signup-btn:hover {
+  background-color: #5942eb !important;
+  color: white;
+}
+
+.signup-text {
+  font-size: calc(20px + 0.7vw);
+  font-weight: 700;
+  text-align: left !important;
+  position: relative;
+  top: -10px !important;
+}
+
+.back-img {
+  position: relative;
+  background: rgb(247, 244, 255);
+  background-repeat: no-repeat;
+  z-index: 100;
+  background-position: center;
+  background-size: 100%;
+  z-index: 50;
+}
+
+.sign-welcome {
+  font-size: calc(20px + 1vw) !important;
+}
+
+.back-img h2 {
+  font-size: calc(20px + 1.2vw) !important;
+  font-weight: 600;
+}
+
+.back-img p {
+  color: black;
+}
+
+.world-image {
+  position: absolute;
+  margin-left: 55%;
+  bottom: 10%;
+}
+
+.world-image img {
+  width: 250px !important;
+  left: 0;
+}
+
+
+
+
